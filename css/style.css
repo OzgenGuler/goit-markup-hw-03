@@ -242,7 +242,7 @@ img {
   row-gap: 48px;
 }
 
-.forth__list .list-item {
+.forth__list .list-items {
   width: calc((100% - 48px) / 3);
 }
 
