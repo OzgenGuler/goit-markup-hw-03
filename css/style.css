@@ -102,6 +102,13 @@ img {
   padding: 188px 0;
 }
 
+.first .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .first__title {
   font-size: 56px;
   line-height: 1.07;
@@ -235,15 +242,14 @@ img {
 }
 
 .list-item {
-  width: calc((100%-72px) / 4);
-  flex-basis: calc((100%-72px) / 4);
+  width: calc((100%-72px)/4);
 }
 
-.fort__list-item-container {
-  padding: 32px;
+.forth_list-item-container {
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  margin-bottom: 8px;
-}
+  border-top: none;
+ }
 
 .forth__title {
   font-size: 36px;
@@ -261,6 +267,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .list-item .text {
